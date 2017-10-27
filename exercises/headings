@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>This is Heading 1. It is the largest because it is the most important</h1>
+
+<p>I can also make horizontal separation lines here:</p>
+<hr>
+
+<h2>This is Heading 2. It is the second largest because it is the second most important</h2>
+<hr>
+
+<h3>This is Heading 3. This is the 3rd largest text</h3>
+<hr>
+
+<h4>This is Heading 4. It is the smallest test because it is the least important</h4>
+<hr>
+
+<p>I can make the size of the heading bigger:</p>
+<h1 style="font-size:75px">Heading</h1>
+
+
+</body>
+</html>
+
