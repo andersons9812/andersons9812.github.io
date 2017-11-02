@@ -1,0 +1,23 @@
+p {
+  color: red;
+}
+
+h1 {
+  color:blue;
+  font-family: verdana;
+}
+
+#id1 {
+  text-align:center;
+  color:purple;
+}
+
+.yo {
+  color:yellow;
+  font-family:Verdana;
+}
+
+.hello p {
+  color: green;
+  text-align:center;
+}
