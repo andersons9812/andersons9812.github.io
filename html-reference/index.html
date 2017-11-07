@@ -1,135 +1,121 @@
 <!DOCTYPE html>
 <html>
+  <head>
+   <link href="styles.css" rel="stylesheet" type="text/css"/>
+   </head>
+   
 <body>
-  <h1 id="top" styles="text-size:75px; text-align:center;"> HTML Reference </h1>
+  <h1 id="top" class="titlestyle"> HTML Reference </h1>
   <hr>
   
 <a href="http://andersons9812.github.io/index.html">Homepage</a>
 
-<style>
-table {
-    font-family: times new roman, sans-serif;
-    border-collapse: condense;
-    width: 90%;
-}
-td, th {
-    border: 2px solid #dddddd;
-    text-align: center;
-    padding: 9px;
-}
-table#t01 {
-	font-family:Ariel, sans-serif;
-    border-collapse:condense;
-    width: 90%;    
-    background-color: powderblue;
-    padding:15px
-}
-</style>
 
-<h2> Table of Contents</h2>
-  <table>
+
+<h2 class="headingstyle"> Table of Contents</h2>
+  <table class="tablestyle">
   <tr>
-    <th>Section</th>
-    <th>Start Tag</th>
-    <th>End Tag</th>
-    <th>Example</th>
+    <th class="tdthstyle">Section</th>
+    <th class="tdthstyle">Start Tag</th>
+    <th class="tdthstyle">End Tag</th>
+    <th class="tdthstyle">Example</th>
   </tr>
   <tr>
-    <td><a href="#A1">Valid HTML page</a></td>
-    <td>NA</td>
-    <td>NA</td>
-    <td>NA</td>
+    <td class="tdthstyle"><a href="#A1">Valid HTML page</a></td>
+    <td class="tdthstyle">NA</td>
+    <td class="tdthstyle">NA</td>
+    <td class="tdthstyle">NA</td>
   </tr>
   <tr>
-    <td><a href="#A2">HTML</a></td>
-    <td>&lthtml&gt</td>
-    <td>&lt/html&gt</td>
-    <td>&lthtml&gt(code...)&lt/html&gt</td>
+    <td class="tdthstyle"><a href="#A2">HTML</a></td>
+    <td class="tdthstyle">&lthtml&gt</td>
+    <td class="tdthstyle">&lt/html&gt</td>
+    <td class="tdthstyle">&lthtml&gt(code...)&lt/html&gt</td>
   </tr>
   <tr>
-    <td><a href="#A3">Header</a></td>
-    <td>&lthead&gt</td>
-    <td>&lt/head&gt</td>
-    <td>&lthead&gt(code...)&lt/head&gt</td>
+    <td class="tdthstyle"><a href="#A3">Header</a></td>
+    <td class="tdthstyle">&lthead&gt</td>
+    <td class="tdthstyle">&lt/head&gt</td>
+    <td class="tdthstyle">&lthead&gt(code...)&lt/head&gt</td>
   </tr>
   <tr>
-     <td><a href="#A4">Title</a></td>
-    <td>&lttitle&gt</td>
-    <td>&lt/title&gt</td>
-    <td>&lttitle&gt(code...)&lt/title&gt</td>
+     <td class="tdthstyle"><a href="#A4">Title</a></td>
+    <td class="tdthstyle">&lttitle&gt</td>
+    <td class="tdthstyle">&lt/title&gt</td>
+    <td class="tdthstyle">&lttitle&gt(code...)&lt/title&gt</td>
   </tr>
   <tr>
-   <td><a href="#A5">Body</a></td>
-    <td>&ltbody&gt</td>
-    <td>&lt/body&gt</td>
-    <td>&ltbody&gt(code...)&lt/body&gt</td>
+   <td class="tdthstyle"><a href="#A5">Body</a></td>
+    <td class="tdthstyle">&ltbody&gt</td>
+    <td class="tdthstyle">&lt/body&gt</td>
+    <td class="tdthstyle">&ltbody&gt(code...)&lt/body&gt</td>
   </tr>
   <tr>
-    <td><a href="#A6">Heading</a></td>
-    <td>&lth1&gt</td>
-    <td>&lt/h1&gt</td>
-    <td>&lth1&gtHeading1&lt/h1&gt</td>
+    <td class="tdthstyle"><a href="#A6">Heading</a></td>
+    <td class="tdthstyle">&lth1&gt</td>
+    <td class="tdthstyle">&lt/h1&gt</td>
+    <td class="tdthstyle">&lth1&gtHeading1&lt/h1&gt</td>
   </tr>
   <tr>
-    <td><a href="#A7">Paragraph</a></td>
-    <td>&ltp&gt</td>
-    <td>&lt/p&gt</td>
-    <td>&ltp&gtHello there!&lt/p&gt</td>
+    <td class="tdthstyle"><a href="#A7">Paragraph</a></td>
+    <td class="tdthstyle">&ltp&gt</td>
+    <td class="tdthstyle">&lt/p&gt</td>
+    <td class="tdthstyle">&ltp&gtHello there!&lt/p&gt</td>
   </tr>
   <tr>
-    <td><a href="#A8">Breaks</a></td>
-    <td>&ltbr&gt</td>
-    <td>NA</td>
-    <td>&ltp&gtHi&ltbr&gtthere&lt/p&gt</td>
+    <td class="tdthstyle"><a href="#A8">Breaks</a></td>
+    <td class="tdthstyle">&ltbr&gt</td>
+    <td class="tdthstyle">NA</td>
+    <td class="tdthstyle">&ltp&gtHi&ltbr&gtthere&lt/p&gt</td>
   </tr>
   <tr>
-     <td><a href="#A9">Lines</a></td>
-    <td>&lthr&gt</td>
-    <td>NA</td>
-    <td>&ltp&gtHello&lt/p&gt&lthr&gt</td>
+     <td class="tdthstyle"><a href="#A9">Lines</a></td>
+    <td class="tdthstyle">&lthr&gt</td>
+    <td class="tdthstyle">NA</td>
+    <td class="tdthstyle">&ltp&gtHello&lt/p&gt&lthr&gt</td>
   </tr>
   <tr>
-    <td><a href="#A10">Comments</a></td>
-    <td>&lt!-- --&gt</td>
-    <td>NA</td>
-    <td>&lt!--comments--&gt</td>
+    <td class="tdthstyle"><a href="#A10">Comments</a></td>
+    <td class="tdthstyle">&lt!-- --&gt</td>
+    <td class="tdthstyle">NA</td>
+    <td class="tdthstyle">&lt!--comments--&gt</td>
   </tr>
   <tr>
-    <td><a href="#A11">Links</a></td>
-    <td>&lta&gt</td>
-    <td>&lt/a&gt</td>
-    <td>&lta href="http://google.com"&gtGoogle&lt/a&gt</td>
+    <td class="tdthstyle"><a href="#A11">Links</a></td>
+    <td class="tdthstyle">&lta&gt</td>
+    <td class="tdthstyle">&lt/a&gt</td>
+    <td class="tdthstyle">&lta href="http://google.com"&gtGoogle&lt/a&gt</td>
   </tr>
   <tr>
-    <td><a href="#A12">Images</a></td>
-    <td>&ltimg&gt</td>
-    <td>NA</td>
-    <td>&ltimg src"(image url)"&gt</td>
+    <td class="tdthstyle"><a href="#A12">Images</a></td>
+    <td class="tdthstyle">&ltimg&gt</td>
+    <td class="tdthstyle">NA</td>
+    <td class="tdthstyle">&ltimg src"(image url)"&gt</td>
   </tr>
   <tr>
-    <td><a href="#A13">Lists</a></td>
-    <td>&ltul&gt,&ltol&gt,&ltli&gt</td>
-    <td>&lt/ul&gt,&lt/ol&gt,&lt/li&gt</td>
-    <td>&ltul&gt&ltli&gtLists&lt/li&gt&lt/ul&gt</td>
+    <td class="tdthstyle"><a href="#A13">Lists</a></td>
+    <td class="tdthstyle">&ltul&gt,&ltol&gt,&ltli&gt</td>
+    <td class="tdthstyle">&lt/ul&gt,&lt/ol&gt,&lt/li&gt</td>
+    <td class="tdthstyle">&ltul&gt&ltli&gtLists&lt/li&gt&lt/ul&gt</td>
+  </tr class="tdthstyle">
+  <tr>
+    <td class="tdthstyle"><a href="#A14">Tables</a></td>
+    <td class="tdthstyle">&lttable&gt,&lttr&gt,&ltth&gt,&lttd&gt</td>
+    <td class="tdthstyle">&lt/table&gt,&lt/tr&gt,&lt/th&gt,&lt/td&gt</td>
+    <td class="tdthstyle">&lttable&gt&lttr&gt&ltth&gtName&lt/th&gt&lt/tr&gt&lt/table&gt</td>
   </tr>
   <tr>
-    <td><a href="#A14">Tables</a></td>
-    <td>&lttable&gt,&lttr&gt,&ltth&gt,&lttd&gt</td>
-    <td>&lt/table&gt,&lt/tr&gt,&lt/th&gt,&lt/td&gt</td>
-    <td>&lttable&gt&lttr&gt&ltth&gtName&lt/th&gt&lt/tr&gt&lt/table&gt</td>
-  </tr>
-  <tr>
-    <td><a href="#A15">Blocks</a></td>
-    <td>&ltdiv&gt</td>
-    <td>&lt/div&gt</td>
-    <td>&ltdiv&gtBreak&lt/div&gt</td>
+    <td class="tdthstyle"><a href="#A15">Blocks</a></td>
+    <td class="tdthstyle">&ltdiv&gt</td>
+    <td class="tdthstyle">&lt/div&gt</td>
+    <td class="tdthstyle">&ltdiv&gtBreak&lt/div&gt</td>
   </tr>
   </table>
   <br>
   <hr>
   
 
-  <h1 id="A1">A valid HTML page includes:</h1>
+  <h1 class="headingstyle" id="A1">A valid HTML page includes:</h1>
   <ul>
     <li>The start and end tag</li>
     <li>The &lt!DOCTYPE html&gt heading, which defines the HTML file to the browser</li>
@@ -140,7 +126,7 @@ table#t01 {
     <a href="#top">Back to top</a>
     <hr>
 
-  <h1 id="A2"> HTML Element</h1>
+  <h1 class="headingstyle" id="A2"> HTML</h1>
   <h2> Description </h2>
   <p> The HTML start and end tag state that everything in between is in HTML</p>
   <h2> Syntax</h2>
@@ -156,7 +142,7 @@ table#t01 {
   <hr>
   
 
-  <h1 id="A3"> Header</h1>
+  <h1 class="headingstyle" id="A3"> Header</h1>
   <h2> Description </h2>
   <p> The head element contains meta information about the document</p>
   <h2> Syntax</h2>
@@ -171,7 +157,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_head.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A4"> Title Element</h1>
+  <h1 class="headingstyle" id="A4"> Title</h1>
   <h2> Description </h2>
   <p> The title element specifies a title for the document</p>
   <h2> Syntax</h2>
@@ -186,7 +172,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_head.asp">W3 Schools Site</a>
   <hr>
  
-  <h1 id="A5"> Body Element</h1>
+  <h1 class="headingstyle" id="A5"> Body</h1>
   <h2> Description </h2>
   <p> The body element contains the visible page content</p>
   <h2> Syntax</h2>
@@ -201,7 +187,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_intro.asp">W3 Schools Site</a>
   <hr>
   
-   <h1 id="A6"> Headings Element</h1>
+   <h1 class="headingstyle" id="A6"> Headings</h1>
   <h2> Description </h2>
   <p> The main headings of the website page and defines a large heading</p>
   <h2> Syntax</h2>
@@ -219,7 +205,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_headings.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A7"> Paragraph Element</h1>
+  <h1 class="headingstyle" id="A7"> Paragraph</h1>
   <h2> Description </h2>
   <p> The paragraph text of the page and defines the paragraph</p>
   <h2> Syntax</h2>
@@ -233,7 +219,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A8"> Breaks Element</h1>
+  <h1 class="headingstyle" id="A8"> Breaks</h1>
   <h2> Description </h2>
   <p> Defines a line break</p>
   <h2> Syntax</h2>
@@ -247,7 +233,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_elements.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A9"> Lines Element</h1>
+  <h1 class="headingstyle" id="A9"> Lines</h1>
   <h2> Description </h2>
   <p> Defines a separating line </p>
   <h2> Syntax</h2>
@@ -263,7 +249,7 @@ table#t01 {
   <a href="https://www.w3schools.com/tags/tag_hr.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A10"> Comments Element</h1>
+  <h1 class="headingstyle" id="A10"> Comments</h1>
   <h2> Description </h2>
   <p> used to insert comments in the source code </p>
   <h2> Syntax</h2>
@@ -277,7 +263,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_comments.asp">W3 Schools Site</a>
   <hr>
   
- <h1 id="A11"> Links Element</h1>
+ <h1 class="headingstyle" id="A11"> Links</h1>
   <h2> Description </h2>
   <p> used to insert links in the source code </p>
   <h2> Syntax</h2>
@@ -291,7 +277,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_links.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A12"> Images Element</h1>
+  <h1 class="headingstyle" id="A12"> Images</h1>
   <h2> Description </h2>
   <p> Used to insert an image into the source code</p>
   <h2> Syntax</h2>
@@ -305,7 +291,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_images.asp">W3 Schools Site</a>
   <hr>  
   
-  <h1 id="A13"> Lists Element</h1>
+  <h1 class="headingstyle" id="A13"> Lists</h1>
   <h2> Description </h2>
   <p> used to insert and organize information into a list.</p>
   <p> There are two different types of lists: unordered lists and ordered lists</p>
@@ -333,7 +319,7 @@ table#t01 {
   <hr>
   
 
-<h1 id="A14"> Tables Element</h1>
+<h1 class="headingstyle" id="A14"> Tables</h1>
   <h2> Description </h2>
   <p> used to insert a table in the source code </p>
   <h2> Syntax</h2>
@@ -380,7 +366,7 @@ table#t01 {
   <a href="https://www.w3schools.com/html/html_tables.asp">W3 Schools Site</a>
   <hr>
   
-  <h1 id="A15"> Blocks Element</h1>
+  <h1 class="headingstyle" id="A15"> Blocks</h1>
   <h2> Description </h2>
   <p> A display feature to rearrange the text into a block</p>
   <h2> Syntax</h2>
