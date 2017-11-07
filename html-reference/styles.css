@@ -1,23 +1,23 @@
-p {
-  color: red;
-}
-
-h1 {
-  color:blue;
-  font-family: verdana;
-}
-
-#id1 {
+.titlestyle {
   text-align:center;
-  color:purple;
+  font: bold 55px verdana;
 }
 
-.yo {
-  color:yellow;
-  font-family:Verdana;
+.headingstyle {
+  font: bold 25px;
+  font-family: Comic Sans MS;
+  background-color: pink;
 }
 
-.hello p {
-  color: green;
+.tablestyle {
+  text-align: center;
+  font-family:Times New Roman;
+  border-collapse: condense
+  width: 100%
+}
+
+.tdthstyle {
+  border: 2px solid #dddddd;
   text-align:center;
+  padding:3px;
 }
