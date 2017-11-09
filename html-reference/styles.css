@@ -13,16 +13,19 @@ h2 {
   background-color: skyblue;
 }
 
+/*This is the border style for the examples in each section*/
 .exampleborder {
   border: 8px solid #dddddd;
   padding: 3px;
   font-family: Comic Sans MS;
 }
 
+/*This is the text style for "example"*/
 .examplestyle {
   font-size: 25px;
 }
 
+/*This is the the table style at the beginning of the website*/
 .tablestyle {
   text-align: center;
   border-collapse: collapse;
@@ -46,13 +49,14 @@ h2 {
   background-color: #dddddd;
 }
 
+/*this is the style for the dividing lines between each section*/
 hr { 
   height: 4px;
   color: black;
   background-color: black;
 }
 
-
+/*These are the link styles*/
 a {
   color: blue
 }
@@ -64,3 +68,6 @@ a:visited {
 a:hover {
   color: red;
 }
+
+
+
