@@ -91,6 +91,11 @@
     width: 50%;
 }
 
+/* Left and right column */
+.column.compare {
+    width: 50%;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
