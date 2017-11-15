@@ -3,14 +3,19 @@
 }
 
 .content p {
-  font-family:"Ariel", sans-serif;
+  font-family:"Arial", sans-serif;
   color:black;
 }
 
 p {
-  font-family: "Ariel";
+  font-family: "Arial";
 }
 
 img {
   width:100%;
+}
+
+ul {
+  font-family: Arial;
+  font-size: 16px;
 }
