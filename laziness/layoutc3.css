@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-body {
-  margin: 0;
+.bodyformat {
+  margin: 20px;
 }
 
 /* Style the headers */
@@ -81,7 +81,12 @@ body {
     width: 25%;
 }
 
-/* Middle column */
+/* Middle column homepage */
+.column.middle.homepage {
+    width: 100%;
+}
+
+/*Middle column with sides too*/
 .column.middle {
     width: 50%;
 }
